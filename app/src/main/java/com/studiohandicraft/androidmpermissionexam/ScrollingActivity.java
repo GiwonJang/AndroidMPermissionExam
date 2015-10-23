@@ -93,8 +93,8 @@ public class ScrollingActivity extends AppCompatActivity {
 		} finally {
 			try {
 				if (osw != null) {
-					fos.close();
 					osw.close();
+					fos.close();
 				}
 			} catch (IOException e) {
 				e.printStackTrace();
